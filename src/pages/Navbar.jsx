@@ -88,11 +88,11 @@ const Navbar = () => {
           {!loggeduser && (
             <nav>
               <Link to="/">
-                <button>Register</button>
+                <button id='Register'>Register</button>
               </Link>
               <Link to="/login">
                 {" "}
-                <button>Login</button>{" "}
+                <button id='Login'>Login</button>{" "}
               </Link>
             </nav>
           )}
